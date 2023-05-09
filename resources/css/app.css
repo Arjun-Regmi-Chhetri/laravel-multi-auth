@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(4,81,110,1) 0%, rgba(177,210,228,1) 0%, rgba(209,213,214,1) 100%);
+}
+
+
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    position: fixed;
+    top:50%;
+    transform: translateY(-60%);
+    background: rgb(225 225 225 / 61%);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+
+
+.form form{
+
+}
